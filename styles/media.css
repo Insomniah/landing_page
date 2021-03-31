@@ -1,0 +1,88 @@
+@media screen and (min-width: 540px) {
+  .meeting-card {
+    width: 60%;
+  }
+  .team-member__photo {
+    height: 54vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 100px;
+  }
+  nav {
+    position: static;
+    padding-top: 0;
+    background-color: transparent;
+    transition: none;
+    justify-content: flex-end;
+  }
+  .nav-menu {
+    flex-direction: row;
+    height: auto;
+  }
+  .nav-menu li {
+    padding-top: 0;
+  }
+  .nav-button {
+    display: none;
+  }
+
+  .home-section__wrapper {
+    justify-content: center;
+  }
+  .home-section-elem {
+    padding-top: 40px;
+  }
+
+
+  .story__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+  .story-text {
+    text-align: start;
+    padding-top: 0;
+  }
+  .story__heading {
+    padding-top: 0;
+  }
+
+
+  .meeting-card {
+    width: 40%;
+    margin: 0 2.5%;
+  }
+  .team-member__photo {
+    height: 36vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    width: calc(70%);
+  }
+  .nav-menu li {
+    padding-left: 20px;
+  }
+
+  .meeting-card {
+    width: 20%;
+    margin: 0 2.5%;
+  }
+  .team-member__photo {
+    height: 14vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  header {
+    height: 90px;
+  }
+  .home-section {
+    height: auto;
+  }
+}
